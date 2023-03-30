@@ -1,0 +1,134 @@
+.page-one {
+  display: flex;
+  flex-direction: row;
+}
+.landing-background {
+  background-image: -webkit-image-set('../public/safe.png');
+  background-size: cover;
+  background-position: 85% 0;
+  height: 100vh;
+  width: 60%;
+  float: right;
+}
+
+.text-background {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 3.5rem 3.5rem;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 1rem;
+}
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  padding-left: 1rem;
+  margin: 0 !important;
+}
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+.about-button {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 180px;
+  background-color: #2E23F7;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+.page-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+}
+.border-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:solid 2px #676767;
+  width: 40vw;
+  padding: 20px 100px 20px 100px;
+}
+.about-title-container {
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+}
+.about-title-one {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: left;
+  height: 40px;
+  margin: 0 !important;
+  padding-top: 2rem;
+}
+.about-title-two {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: right;
+  height: 40px;
+  margin: 0 !important;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.about-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.about-bold {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2rem;
+  letter-spacing: 2px;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lock-img {
+  background-image: -webkit-image-set('../public/lock.png');
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
