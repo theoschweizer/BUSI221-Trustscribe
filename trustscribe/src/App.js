@@ -60,7 +60,7 @@ function App() {
           Under no circumstances can we access your data. Ever. All transcriptions are locally stored and locally encrypted. 
           </p>
         </div>
-        <iframe src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" className="cog-iframe-embed" style={{fontFamily: "Roboto"}} overflow="hidden" height="460px" width="600px"></iframe>
+        <iframe title="email-form" src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" className="cog-iframe-embed" style={{fontFamily: "Roboto"}} overflow="hidden" height="460px" width="600px"></iframe>
         {/* <div className="blocker"/> */}
       </div>
       <div className="footer">
@@ -76,6 +76,3 @@ function App() {
 }
 
 export default App;
-
-{/* <iframe src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" style="border:0;width:100%;" height="408"></iframe> */}
-{/* <script src="https://www.cognitoforms.com/f/iframe.js"></script> */}
