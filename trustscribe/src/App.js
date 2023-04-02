@@ -1,6 +1,16 @@
 import './App.css';
 
 function App() {
+  
+    const handleClickScroll = () => {
+      console.log("jere")
+      const element = document.getElementById('info-box');
+      if (element) {
+        // 👇 Will scroll smoothly to the top of the next section
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
   return (
     <div>
       <div className="page-one">
@@ -17,15 +27,15 @@ function App() {
           <p className="description">
             Securely transcribe and store sensitive audio recordings. All data is locally stored and only accessible by you.
           </p>
-          <button className="about-button">LEARN MORE</button>
+          <button className="about-button" onClick={handleClickScroll}>LEARN MORE</button>
         </div>
         <div  className="landing-background">
         </div>
         <div>
         </div>
       </div>
-      <div className="page-two">
-        <div className="border-box">
+      <div className="page-two" >
+        <div className="border-box" id="info-box">
           <div className="about-title-container">
             <p className="about-title-one">
             Don't trust us?
@@ -50,6 +60,8 @@ function App() {
           Under no circumstances can we access your data. Ever. All transcriptions are locally stored and locally encrypted. 
           </p>
         </div>
+        <iframe src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" className="cog-iframe-embed" style={{fontFamily: "Roboto"}} overflow="hidden" height="460px" width="600px"></iframe>
+        {/* <div className="blocker"/> */}
       </div>
       <div className="footer">
           <div>
@@ -64,3 +76,6 @@ function App() {
 }
 
 export default App;
+
+{/* <iframe src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" style="border:0;width:100%;" height="408"></iframe> */}
+{/* <script src="https://www.cognitoforms.com/f/iframe.js"></script> */}
