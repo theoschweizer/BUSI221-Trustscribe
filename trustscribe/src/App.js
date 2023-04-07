@@ -3,7 +3,6 @@ import './App.css';
 function App() {
   
     const handleClickScroll = () => {
-      console.log("jere")
       const element = document.getElementById('info-box');
       if (element) {
         // 👇 Will scroll smoothly to the top of the next section
@@ -60,7 +59,7 @@ function App() {
           Under no circumstances can we access your data. Ever. All transcriptions are locally stored and locally encrypted. 
           </p>
         </div>
-        <iframe title="email-form" src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" className="cog-iframe-embed" style={{fontFamily: "Roboto"}} overflow="hidden" height="460px" width="600px"></iframe>
+        <iframe title="email-form" src="https://www.cognitoforms.com/f/cMjyRSzaR0iaxbRZLfMWtQ/2" className="cog-iframe-embed" style={{fontFamily: "Roboto"}} overflow="hidden" height="460px" width="400px"></iframe>
         {/* <div className="blocker"/> */}
       </div>
       <div className="footer">
