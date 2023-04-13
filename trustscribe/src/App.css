@@ -3,7 +3,7 @@
   flex-direction: row;
 }
 .landing-background {
-  background-image: -webkit-image-set('../public/safe.png');
+  background-image: -webkit-image-set('../public/safe.webp');
   background-size: cover;
   background-position: 85% 0;
   height: 90vh;
